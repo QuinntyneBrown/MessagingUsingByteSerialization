@@ -5,39 +5,46 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlocks", "BuildingBlocks", "{C764580A-5EBD-49A3-B78F-7AC2110AAF81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kernel", "BuildingBlocks\Kernel\Kernel.csproj", "{EBA1EB12-0871-41F9-A3EC-80EE536890D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kernel", "BuildingBlocks\Kernel\Kernel.csproj", "{EBA1EB12-0871-41F9-A3EC-80EE536890D5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Messaging", "Messaging", "{0021ABD5-3B4A-48A6-842A-3CFAADFFF1C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messaging", "BuildingBlocks\Messaging\Messaging\Messaging.csproj", "{F018E065-2CC3-4C4A-8A64-FEBC3D0BEB6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Messaging", "BuildingBlocks\Messaging\Messaging\Messaging.csproj", "{F018E065-2CC3-4C4A-8A64-FEBC3D0BEB6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messaging.Udp", "BuildingBlocks\Messaging\Messaging.Udp\Messaging.Udp.csproj", "{E6A86410-78D7-42C1-BEBD-3DD9460F8740}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Messaging.Udp", "BuildingBlocks\Messaging\Messaging.Udp\Messaging.Udp.csproj", "{E6A86410-78D7-42C1-BEBD-3DD9460F8740}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{11F21B54-2649-4FF5-9CD1-191219FB88AC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityService", "IdentityService", "{EC57934C-63BA-4D9A-9F12-F2B7907CC79B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityService.Core", "Services\IdentityService\IdentityService.Core\IdentityService.Core.csproj", "{ABAEC665-3EF5-4EDD-BEEA-5A3D2B7142F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityService.Core", "Services\IdentityService\IdentityService.Core\IdentityService.Core.csproj", "{ABAEC665-3EF5-4EDD-BEEA-5A3D2B7142F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityService.Infrastructure", "Services\IdentityService\IdentityService.Infrastructure\IdentityService.Infrastructure.csproj", "{E039B4D6-BBB6-4D15-8155-04F31347BC34}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityService.Infrastructure", "Services\IdentityService\IdentityService.Infrastructure\IdentityService.Infrastructure.csproj", "{E039B4D6-BBB6-4D15-8155-04F31347BC34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityService.Api", "Services\IdentityService\IdentityService.Api\IdentityService.Api.csproj", "{0DF93511-852F-4774-868B-47E8ED451382}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityService.Api", "Services\IdentityService\IdentityService.Api\IdentityService.Api.csproj", "{0DF93511-852F-4774-868B-47E8ED451382}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CommitmentService", "CommitmentService", "{DC35F510-06C3-437B-8111-0756E2C33CC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommitmentService.Core", "Services\CommitmentService\CommitmentService.Core\CommitmentService.Core.csproj", "{263D16FA-AD86-4D7E-B400-0A7CCD5FE498}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommitmentService.Core", "Services\CommitmentService\CommitmentService.Core\CommitmentService.Core.csproj", "{263D16FA-AD86-4D7E-B400-0A7CCD5FE498}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommitmentService.Infrastructure", "Services\CommitmentService\CommitmentService.Infrastructure\CommitmentService.Infrastructure.csproj", "{581E785A-AF5D-4126-9A02-94F389A9696F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommitmentService.Infrastructure", "Services\CommitmentService\CommitmentService.Infrastructure\CommitmentService.Infrastructure.csproj", "{581E785A-AF5D-4126-9A02-94F389A9696F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommitmentService.Api", "Services\CommitmentService\CommitmentService.Api\CommitmentService.Api.csproj", "{6644BCD0-E8F1-4A3C-8583-337499FA7992}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommitmentService.Api", "Services\CommitmentService\CommitmentService.Api\CommitmentService.Api.csproj", "{6644BCD0-E8F1-4A3C-8583-337499FA7992}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{63E4A4E9-B400-416C-9FB9-1D581E93A7BD}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utilities", "Utilities", "{46D62740-0817-4DDA-86DD-11A35181929C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeedData", "Utilities\SeedData\SeedData.csproj", "{38789DB6-9AAB-402F-BAE9-AD312EC18E1A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{EBA1EB12-0871-41F9-A3EC-80EE536890D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -76,6 +83,13 @@ Global
 		{6644BCD0-E8F1-4A3C-8583-337499FA7992}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6644BCD0-E8F1-4A3C-8583-337499FA7992}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6644BCD0-E8F1-4A3C-8583-337499FA7992}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38789DB6-9AAB-402F-BAE9-AD312EC18E1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38789DB6-9AAB-402F-BAE9-AD312EC18E1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38789DB6-9AAB-402F-BAE9-AD312EC18E1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38789DB6-9AAB-402F-BAE9-AD312EC18E1A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{EBA1EB12-0871-41F9-A3EC-80EE536890D5} = {C764580A-5EBD-49A3-B78F-7AC2110AAF81}
@@ -90,5 +104,9 @@ Global
 		{263D16FA-AD86-4D7E-B400-0A7CCD5FE498} = {DC35F510-06C3-437B-8111-0756E2C33CC3}
 		{581E785A-AF5D-4126-9A02-94F389A9696F} = {DC35F510-06C3-437B-8111-0756E2C33CC3}
 		{6644BCD0-E8F1-4A3C-8583-337499FA7992} = {DC35F510-06C3-437B-8111-0756E2C33CC3}
+		{38789DB6-9AAB-402F-BAE9-AD312EC18E1A} = {46D62740-0817-4DDA-86DD-11A35181929C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C7D5B4FF-7B5A-4114-99E0-E4393D3C8173}
 	EndGlobalSection
 EndGlobal
